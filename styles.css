@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-size: 2.1rem;
+    background-color:#00e1ff;
+    color: #000000;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    background-color: #000000;
+    color: #00e1ff;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #00e1ff;
+}
+
+main {
+    padding: 1rem;
+}
+
+#landing {
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#courses {
+    margin-top: 2rem;
+    color: #ffffff;
+}
+
+#course-list {
+    list-style: none;
+    padding: 0;
+}
+
+#course-list li {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: #01ffff;
+    background-color: #06eeff;
+    color: rgb(0, 0, 0);
+    border: 1px solid #120268;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(231, 226, 226, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+#course-list li:hover {
+    transform: translateY(-5px);
+}
+
+#course-detail {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+#enroll-button {
+    background-color: #080077;
+    color: #01ffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#enroll-button:hover {
+    background-color: #27ae60;
+}
+#contact{
+    font-size: 2.5rem;
+    background-color: #00ffff(2, 13, 107);
+    color: #00e1ff;
+}
